@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Monitoring système</title>
+    <link rel="stylesheet" href="template.css">
+</head>
+
+<body>
+
+<h1>Monitoring système</h1>
+
+<section>
+    <h2><span class="icon">🧠</span> Section CPU</h2>
+    <p><strong>Nombre de cœurs :</strong> {{cpu_cores}}</p>
+    <p><strong>Fréquence actuelle :</strong> {{cpu_freq}} MHz</p>
+    <p><strong>Usage CPU :</strong> {{cpu}} %</p>
+</section>
+
+<section>
+    <h2><span class="icon">💾</span> Section Mémoire</h2>
+    <p><strong>RAM totale :</strong> {{ram_total}} Go</p>
+    <p><strong>RAM utilisée :</strong> {{ram_used}} Go</p>
+    <p><strong>Pourcentage RAM utilisée :</strong> {{ram}} %</p>
+</section>
+
+<section>
+    <h2><span class="icon">🖥️</span> Section Système</h2>
+    <p><strong>Nom de la machine :</strong> {{hostname}}</p>
+    <p><strong>OS :</strong> {{os_name}} {{os_version}}</p>
+    <p><strong>Heure de démarrage :</strong> {{boot_time}}</p>
+    <p><strong>Temps de fonctionnement :</strong> {{uptime_hours}} heures</p>
+    <p><strong>Nombre d'utilisateurs connectés :</strong> {{users_count}}</p>
+    <p><strong>Adresse IP principale :</strong> {{ip_address}}</p>
+</section>
+
+<section>
+    <h2><span class="icon">⚙️</span> Section Processus</h2>
+    <h3>Liste des processus (CPU)</h3>
+<p>{{process_list_cpu}}</p>
+<h3>Liste des processus (RAM)</h3>
+<p>{{process_list_ram}}</p>
+
+    <h3>Top 3 processus les plus gourmands</h3>
+    <p>{{top_processes}}</p>
+</section>
+
+</body>
+</html>
+
+</body>
+
+
+
+</html>

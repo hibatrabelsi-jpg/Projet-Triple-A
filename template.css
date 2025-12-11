@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", Arial, sans-serif;
+    background: #f3f4f7;
+    color: #222;
+}
+
+/* --- Header --- */
+h1 {
+    text-align: center;
+    margin: 40px 0 20px;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+/* --- Cards sections --- */
+section {
+    background: white;
+    width: 70%;
+    margin: 25px auto;
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: transform 0.15s ease, box-shadow 0.2s ease;
+}
+
+/* Effet hover discret */
+section:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 17px rgba(0,0,0,0.12);
+}
+
+/* Titres des sections */
+h2 {
+    font-size: 1.3rem;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* --- Icônes --- */
+.icon {
+    font-size: 1.4rem;
+}
+
+/* Texte infos */
+p {
+    margin: 4px 0;
+    line-height: 1.4rem;
+}
+
+/* Top 3 processus */
+ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
